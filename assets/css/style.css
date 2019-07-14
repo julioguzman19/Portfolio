@@ -13,15 +13,37 @@
 }
 .nav a{
     display:inline-block;
-    padding:10px;
+    font-size: 20px;
+    padding:30px;
     text-decoration: none;
 }
 
+/*name*/
+.logoDiv{
+   
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+
+.logoDiv h1{
+    font-size: 50px;
+     text-decoration:none;
+}
+
 /* body background */
-.backgroundImage{
+body{
     background:url("../images/beach1.jpg");
     background-size: 100%; /*image not zoomed out or in covers everthing*/
 }
-/* .backgroundColor{
-   
-} */
+
+/*body home page*/
+.jobTitle h1{
+    text-align:center;
+    margin-top:10%;
+    font-size: 50px;
+}
+
+
