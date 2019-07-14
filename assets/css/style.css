@@ -1,3 +1,5 @@
+/*** Home Page ***/
+
 /* nav bar*/
 .nav{
     border:1px solid #ccc;
@@ -35,8 +37,9 @@
 
 /* body background */
 body{
-    background:url("../images/beach1.jpg");
-    background-size: 100%; /*image not zoomed out or in covers everthing*/
+    background-image:url("../images/beach1.jpg");
+    background-size: 100% ; /*image not zoomed out or in covers everthing*/
+    background-repeat: no-repeat;
 }
 
 /*body home page*/
@@ -46,4 +49,17 @@ body{
     font-size: 50px;
 }
 
+/*footer*/
+footer {
+    border-top: 7px solid #4aaaa5;
+    bottom:0; /*keeps footer at bottom*/
+    position: absolute;
+    width: 100%;
+    background-color: #787878;
+    color: #ffffff;
+    text-align: center;
+    font-size: 10px;
+    height: 5%;
+    margin: 10% 0% 0% 0%;
+  }
 
