@@ -22,17 +22,26 @@
 
 /*name*/
 .logoDiv{
-   
-    border-width:1px 0;
-    list-style:none;
-    margin:0;
-    padding:0;
+    background: black;/* the blue background color around the text */
+    background-size: cover;
+    margin:auto;
+    margin-top:4%;
     text-align:center;
+    width:20%;
+}
+
+.nameText{
+ color: #fff;/* just incase the background-clip is not supported so text color white */
+ background: url("../images/beach1.jpg") no-repeat;
+ background-size: cover;
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
 }
 
 .logoDiv h1{
     font-size: 50px;
-     text-decoration:none;
+    font-weight: bold;
+    text-decoration:none;
 }
 
 /* body background */
@@ -43,10 +52,20 @@ body{
 }
 
 /*body home page*/
-.jobTitle h1{
+.jobTitle {
+    background: black;/* the blue background color around the text */
+    background-size: cover;
+    margin:auto;
+    margin-top:6%;
     text-align:center;
-    margin-top:10%;
+    width:30%;
+  
+}
+
+.jobTitle h1{
     font-size: 50px;
+    font-weight: bold;
+    text-decoration:none;
 }
 
 /*footer*/
