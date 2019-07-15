@@ -14,67 +14,55 @@
    
 }
 .nav a{
+    color:white;
     display:inline-block;
-    font-size: 20px;
+    font-size: 23px;
+    font-weight: bold;
     padding:30px;
     text-decoration: none;
 }
 
-/*name*/
-.logoDiv{
-    background: black;/* the blue background color around the text */
-    background-size: cover;
-    margin:auto;
-    margin-top:4%;
-    text-align:center;
-    width:20%;
-}
-
-.nameText{
- color: #fff;/* just incase the background-clip is not supported so text color white */
- background: url("../images/beach1.jpg") no-repeat;
- background-size: cover;
- -webkit-background-clip: text;
- -webkit-text-fill-color: transparent;
-}
-
-.logoDiv h1{
-    font-size: 50px;
-    font-weight: bold;
-    text-decoration:none;
-}
-
 /* body background */
 body{
-    background:url("../images/beach1.jpg");
+    background:url("../images/beach2.jpg");
     background-size: cover ; /*image not zoomed out or in covers everthing*/
     background-repeat: no-repeat;
 }
 
 /*body home page*/
-.jobTitle {
-    background: black;/* the blue background color around the text */
-    background-size: cover;
+/*name*/
+.nameDiv{
     margin:auto;
-    margin-top:6%;
+    margin-top:4%;
     text-align:center;
-    width:30%;
-  
+    width:100%;
 }
 
-.jobTitle h1{
-    font-size: 50px;
-    font-weight: bold;
-    text-decoration:none;
+.nameJobText{
+ color: white;
+ text-shadow: 2px 2px 4px #000000;
+ font-size: 60px;
+font-weight: bold;
+}
+
+
+/*jobTitle*/
+.jobTitle {
+    margin:auto;
+    margin-top:6%;
+    padding-bottom:.4%;
+    text-align:center;
+    width:100%;
+  
 }
 
 /*footer*/
 footer {
-    border-top: 7px solid #4aaaa5;
+    border-top: 7px solid rgba(141, 135, 135, 0.089);
     bottom:0; /*keeps footer at bottom*/
     position: absolute;
     width: 100%;
-    background-color: #787878;
+    background-color: darkgrey;
     color: #ffffff;
     text-align: center;
     font-size: 10px;
@@ -83,6 +71,7 @@ footer {
   }
 
 /*media queries */
+
 @media screen and (max-width: 1064px) {
     body{
            background-size: 1064px;    
