@@ -37,8 +37,8 @@
 
 /* body background */
 body{
-    background-image:url("../images/beach1.jpg");
-    background-size: 100% ; /*image not zoomed out or in covers everthing*/
+    background:url("../images/beach1.jpg");
+    background-size: cover ; /*image not zoomed out or in covers everthing*/
     background-repeat: no-repeat;
 }
 
@@ -63,3 +63,17 @@ footer {
     margin: 10% 0% 0% 0%;
   }
 
+/*media queries */
+@media screen and (max-width: 1064px) {
+    body{
+           background-size: 1064px;    
+    }
+
+}
+
+@media screen and (max-width: 486px) {
+    .nav a{
+        padding:8px;
+    }
+
+}
