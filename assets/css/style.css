@@ -60,36 +60,6 @@ body{
   
 }
 
-/*footer*/
-footer {
-    border-top: 7px solid rgba(141, 135, 135, 0.089);
-     bottom:0px;  /*keeps footer at bottom*/
-    position: absolute;
-    width: 100%;
-    background-color: darkgrey;
-    color: #ffffff;
-    text-align: center;
-    font-size: 10px;
-    height: 5%;
-    margin: 10% 0% 0% 0%;
-  }
-
- /*media queries */
-/*
- @media screen and (max-width: 1064px) {
-    body{
-           background-size: 1064px;    
-    }
-
-}
-
-@media screen and (max-width: 486px) {
-    .nav a{
-        padding:8px;
-    }
-
-}  */
-
 /*** About Page ***/
 .container {
     width: 100%;
@@ -113,7 +83,7 @@ footer {
     width: 100%;
     max-width: 960px;
     padding: 10px;
-    border:1px solid #dddddd;
+    /* border:1px solid #dddddd; */
   }
 
   .auth-image {
@@ -137,35 +107,55 @@ footer {
     float: left;
     width: 274px;
     margin: 20px 0 25px;
-    overflow: auto;
+    padding: 8px;
   }
   
   .work img {
     width: 100%;
     border:2px solid black;
-    opacity: 0.8;
+    filter: brightness(50%);
+    
   }
   
   .work h3 {
+    
     position: absolute;
-    bottom: 20px;
-    width: 100%;
+    bottom: 13px;
+    width: 274px;
+    height:55px;
     padding: 2px;
     margin-bottom: 0;
     font-weight: 300;
     line-height: 30px;
     color: #ffffff;
     text-align: center;
-    background: #4aaaa5;
+    background:rgb(119, 116, 116);
   }
   
   
   .appLink{
     float:left;
     margin-left: 20%;
+    color: #ffffff;
   }
 
   .codeLink{
     float:right;
     margin-right: 20%;
+    color: #ffffff;
   }
+
+/*** All Pages ***/
+/*footer*/
+footer {
+  border-top: 7px solid rgba(141, 135, 135, 0.089);
+   bottom:0px;  /*keeps footer at bottom*/
+  position: absolute;
+  width: 100%;
+  background-color: darkgrey;
+  color: #ffffff;
+  text-align: center;
+  font-size: 10px;
+  height: 5%;
+  margin: 10% 0% 0% 0%;
+}
