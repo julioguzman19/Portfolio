@@ -1,3 +1,5 @@
+/*Length up down responsiveness!!*/
+
 /*** Home Page ***/
 
 /* nav bar*/
@@ -25,7 +27,9 @@
 /* body background */
 body{
     background:url("../images/beach2.jpg");
-    background-size: cover ; /*image not zoomed out or in covers everthing*/
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover; /*image not zoomed out or in covers everthing*/
     background-repeat: no-repeat;
 }
 
@@ -70,8 +74,8 @@ footer {
     margin: 10% 0% 0% 0%;
   }
 
-/*media queries */
-
+ /*media queries */
+/*
  @media screen and (max-width: 1064px) {
     body{
            background-size: 1064px;    
@@ -84,7 +88,7 @@ footer {
         padding:8px;
     }
 
-} 
+}  */
 
 /*** About Page ***/
 .container {
