@@ -26,14 +26,6 @@
     text-decoration: none;
 }
 
-/* body background */
-body{
-    background:url("../images/beach2.jpg");
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover; /*image not zoomed out or in covers everthing*/
-    background-repeat: no-repeat;
-}
 
 /*body home page*/
 /*name*/
@@ -76,16 +68,15 @@ body{
   }
   
   .main-section {
-    font-family: 'Playfair Display SC', serif; 
+    font-family: helvetica; 
     font-size: 14px;
     font-style: bold;
     color:black;
-    /* text-shadow: 1px 1px 1px black;  */
+    text-shadow: 1px 1px 1px black; 
     float: left;
     width: 100%;
     max-width: 960px;
     padding: 10px;
-    /* border:1px solid #dddddd; */
   }
 
   .auth-image {
@@ -151,8 +142,8 @@ body{
 /*footer*/
 footer {
   border-top: 7px solid rgba(141, 135, 135, 0.089);
-   bottom:0px;  /*keeps footer at bottom*/
-  position: absolute;
+  bottom:0px;  /*keeps footer at bottom*/
+  position: fixed;
   width: 100%;
   background-color: darkgrey;
   color: #ffffff;
@@ -160,5 +151,14 @@ footer {
   font-size: 10px;
   height: 5%;
   margin: 10% 0% 0% 0%;
+ 
 }
 
+/* body background */
+body{
+  background:url("../images/beach2.jpg");
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover; /*image not zoomed out or in covers everthing*/
+  background-repeat: no-repeat;
+}
