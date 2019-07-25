@@ -2,29 +2,7 @@
 
 /*** Home Page ***/
 
-/* nav bar*/
-.nav{
-    border:1px solid #ccc;
-    border-width:1px 0;
-    font-family: 'Playfair Display SC', serif; 
-    list-style:none;
-    margin:0;
-    padding:0;
-    text-align:center;
-}
-.nav li{
-    display:inline;
-   
-}
-.nav a{
-    color:white;
-    display:inline-block;
-  
-    font-size: 20px;
-    font-weight: bold;
-    padding:30px;
-    text-decoration: none;
-}
+
 
 
 /*body home page*/
@@ -106,10 +84,12 @@
   .work img {
     width: 100%;
     border:2px solid black;
-    filter: brightness(50%);
-    
+    filter: brightness(50%);    
   }
   
+  .work img:hover{
+    filter: brightness(100%);
+  }
   .work h3 {
     
     position: absolute;
@@ -139,6 +119,43 @@
   }
 
 /*** All Pages ***/
+/* nav bar*/
+.nav{
+  border:1px solid #ccc;
+  border-width:1px 0;
+  font-family: 'Playfair Display SC', serif; 
+  list-style:none;
+  margin:0;
+  padding:0;
+  text-align:center;
+}
+.nav li{
+  display:inline;
+ 
+}
+.nav a{
+  color:white;
+  display:inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  padding:30px;
+  text-decoration: none;
+}
+
+a:hover{
+  color:black;
+}
+/* body background */
+body{
+  background:url("../images/beach2.jpg");
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover; /*image not zoomed out or in covers everthing*/
+  background-repeat: no-repeat;
+}
+
+
+
 /*footer*/
 footer {
   border-top: 7px solid rgba(141, 135, 135, 0.089);
@@ -152,13 +169,4 @@ footer {
   height: 5%;
   margin: 10% 0% 0% 0%;
  
-}
-
-/* body background */
-body{
-  background:url("../images/beach2.jpg");
-  background-position: center center;
-  background-attachment: fixed;
-  background-size: cover; /*image not zoomed out or in covers everthing*/
-  background-repeat: no-repeat;
 }
