@@ -1,9 +1,6 @@
 /*Length up down responsiveness!!*/
 
-/*** Home Page ***/
-
-
-
+/*** --- Home Page --- ***/
 
 /*body home page*/
 /*name*/
@@ -28,8 +25,7 @@
     margin:auto;
     margin-top:2%;
     text-align:center;
-    width:100%;
-  
+    width:100%; 
 }
 
 /*** About Page ***/
@@ -53,8 +49,8 @@
     text-shadow: 1px 1px 1px black; 
     float: left;
     width: 100%;
-    max-width: 960px;
-    padding: 10px;
+    max-width: 1200px;
+    padding: 1% 0px 0px 4%;
   }
 
   .auth-image {
@@ -72,28 +68,29 @@
     padding-top: 1%;
   }
 
-  /*** Portfolio Page ***/
+  /***--- Portfolio Page ----***/
   .work {
     position: relative;
     float: left;
     width: 274px;
-    margin: 20px 0 25px;
+    margin: 20px 0 5px;
     padding: 8px;
   }
   
   .work img {
     width: 100%;
     border:2px solid black;
-    filter: brightness(50%);    
+    filter: brightness(50%); 
   }
   
   .work img:hover{
     filter: brightness(100%);
   }
+
   .work h3 {
-    
+    pointer-events: none;
     position: absolute;
-    bottom: 13px;
+    bottom: 3px;
     width: 274px;
     height:55px;
     padding: 2px;
@@ -105,23 +102,24 @@
     background:rgb(119, 116, 116);
   }
   
-  
   .appLink{
     float:left;
     margin-left: 20%;
+    pointer-events: all;
     color: #ffffff;
   }
  
   .codeLink{
     float:right;
     margin-right: 20%;
+    pointer-events: all;
     color: #ffffff;
   }
 
 /*** All Pages ***/
 /* nav bar*/
 .nav{
-  border:1px solid #ccc;
+  border:0.05px solid white;
   border-width:1px 0;
   font-family: 'Playfair Display SC', serif; 
   list-style:none;
@@ -175,6 +173,12 @@ footer {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+    /*** --- Home Page --- ***/
+      /*name*/
+    .nameDiv{
+        margin-top:2%;
+    }
+    /*** --- Portfolio Page --- ***/
   
 }
 
