@@ -29,19 +29,50 @@
 }
 
 /*** About Page ***/
-.container {
+.container-about {
     width: 100%;
-    max-width: 980px;
+    max-width: 320px;
     margin: 0 auto;
     clear: both;
   }
 
   #main-container {
-    padding-top: 10px;
     min-height: calc(100vh - 70px);
+    margin-top:2%;
+
   }
   
-  .main-section {
+  .main-section-about {
+    font-family: helvetica; 
+    font-size: 14px;
+    font-style: bold;
+    color:black;
+    width: 100%;
+    max-width: 320px;
+    padding: 1% 0px 0px 4%;
+    background: rgb(182, 177, 177);
+  }
+
+  .auth-image {
+    border-radius: 40px;
+    float: top;
+    height: auto;
+    margin-top: 10px;
+    height: 210px;
+    width: 180px;
+    filter: brightness(65%);
+    margin-left: 55px;
+  }
+  .auth-image:hover{
+    filter: brightness(90%);
+  }
+
+  .indent{
+    padding-top: 3%;
+  }
+
+  /***--- Portfolio Page ----***/
+  .main-section-portfolio {
     font-family: helvetica; 
     font-size: 14px;
     font-style: bold;
@@ -52,23 +83,12 @@
     max-width: 1200px;
     padding: 1% 0px 0px 4%;
   }
-
-  .auth-image {
-    float: left;
-    height: auto;
-    margin-top: 10px;
-    margin-right: 25px;
-    height: 280px;
-    width: 180px;
-    filter: brightness(75%);
+  .container-portfolio {
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    clear: both;
   }
-
-  .indent{
-    padding-left: 18%;
-    padding-top: 1%;
-  }
-
-  /***--- Portfolio Page ----***/
   .work {
     position: relative;
     float: left;
@@ -151,7 +171,6 @@ body{
   background-size: cover; /*image not zoomed out or in covers everthing*/
   background-repeat: no-repeat;
 }
-
 
 
 /*footer*/
