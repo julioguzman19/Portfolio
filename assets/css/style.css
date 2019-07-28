@@ -6,7 +6,7 @@
 /*name*/
 .nameDiv{
     margin:auto;
-    margin-top:8.8%;
+    margin-top:4%;
     text-align:center;
     width:100%;
 }
@@ -31,7 +31,7 @@
 /*** About Page ***/
 .container-about {
     width: 100%;
-    max-width: 320px;
+    max-width: 600px;
     margin: 0 auto;
     clear: both;
   }
@@ -48,8 +48,8 @@
     font-style: bold;
     color:black;
     width: 100%;
-    max-width: 320px;
-    padding: 1% 0px 0px 4%;
+    max-width: 600px;
+    padding: 1% 0px 0px 1%;
     background: rgb(182, 177, 177);
   }
 
@@ -61,7 +61,7 @@
     height: 210px;
     width: 180px;
     filter: brightness(65%);
-    margin-left: 55px;
+    margin-left: 213px;
   }
   .auth-image:hover{
     filter: brightness(90%);
@@ -191,28 +191,68 @@ footer {
 /*---Media Queries---*/
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+@media only screen and (max-width: 1200px) {
+
     /*** --- Home Page --- ***/
-      /*name*/
     .nameDiv{
-        margin-top:2%;
+        margin-top:6%;
     }
+
     /*** --- Portfolio Page --- ***/
   
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-  
+/* Extra large devices - large devices (1200px - 992px and up) using average */
+@media only screen and (max-width: 1096px) {
+  /*** --- Home Page --- ***/
+  .nameDiv{
+    margin-top:7.5%;
+  }
 }
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+  /*** --- Home Page --- ***/
+  .nameDiv{
+    margin-top:7%;
+  }
+
+}
+
+/* Large devices - Medium devices (992px - 768px) using average */
+@media only screen and (max-width: 880px) {
+  /*** --- Home Page --- ***/
+  .nameDiv{
+    margin-top:9%;
+  }
+
+}
+
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-
+@media only screen and (max-width: 768px) {
+  /*** --- Home Page --- ***/
+  .nameDiv{
+    margin-top:11%;
+  }
 }
 
+/* Medium devices - Small devices (768px - 600px) using average */
+@media only screen and (max-width: 684px) {
+  /*** --- Home Page --- ***/
+  .nameDiv{
+    margin-top:13%;
+  }
+
+  .nameJobText{
+    font-size: 50px;
+   }
+}
+
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 600px) {
 
 } 
 /* Extra small devices (phones, 600px and down) */
