@@ -190,7 +190,7 @@ footer {
 
 /*---Media Queries---*/
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and down) */
 @media only screen and (max-width: 1200px) {
 
     /*** --- Home Page --- ***/
@@ -202,7 +202,8 @@ footer {
   
 }
 
-/* Extra large devices - large devices (1200px - 992px and up) using average */
+/* Extra large devices - large devices 
+(1200px - 992px and up) using average */
 @media only screen and (max-width: 1096px) {
   /*** --- Home Page --- ***/
   .nameDiv{
@@ -211,7 +212,7 @@ footer {
 }
 
 
-/* Large devices (laptops/desktops, 992px and up) */
+/* Large devices (laptops/desktops, 992px and down) */
 @media only screen and (max-width: 992px) {
   /*** --- Home Page --- ***/
   .nameDiv{
@@ -220,7 +221,8 @@ footer {
 
 }
 
-/* Large devices - Medium devices (992px - 768px) using average */
+/* Large devices - Medium devices 
+(992px - 768px) using average */
 @media only screen and (max-width: 880px) {
   /*** --- Home Page --- ***/
   .nameDiv{
@@ -230,7 +232,7 @@ footer {
 }
 
 
-/* Medium devices (landscape tablets, 768px and up) */
+/* Medium devices (landscape tablets, 768px and down) */
 @media only screen and (max-width: 768px) {
   /*** --- Home Page --- ***/
   .nameDiv{
@@ -238,7 +240,8 @@ footer {
   }
 }
 
-/* Medium devices - Small devices (768px - 600px) using average */
+/* Medium devices - Small devices 
+(768px - 600px) using average */
 @media only screen and (max-width: 684px) {
   /*** --- Home Page --- ***/
   .nameDiv{
@@ -251,12 +254,84 @@ footer {
 }
 
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Small devices (portrait tablets and large phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .nameDiv{
+    margin-top:16%;
+  }
+
+  .nameJobText{
+    font-size: 45px;
+   }
+
+   .nav a{
+    font-size: 18px;
+    padding:28px;
+
+  }
 
 } 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+
+
+/* Extra small devices (phones, 525 and down) */
+@media only screen and (max-width: 525px) {
+  .nameDiv{
+    margin-top:18%;
+  }
+
+  .nameJobText{
+    font-size: 38px;
+   }
+
+   .nav a{
+    font-size: 16px;
+    padding:20px;
+
+  }
+
+}
+
+/* Extra small devices (phones, 450 and down) */
+@media only screen and (max-width: 450px) {
+  .nameDiv{
+    margin-top:22%;
+  }
+
+  .nameJobText{
+    font-size: 38px;
+   }
+
+   .nav a{
+    font-size: 16px;
+    padding:16px;
+
+  }
+
+}
+
+/* Extra small devices (phones, 388 and down) */
+@media only screen and (max-width: 388px) {
+  .nameDiv{
+    margin-top:14%;
+  }
+
+  .nameJobText{
+    font-size: 38px;
+   }
+
+   .nav a{
+    font-size: 16px;
+    padding:18px;
+   }
+   
+    .nav{
+      max-width:388px;
+      height: 100px;
+    }
+
+   
+
+  
 
 }
 
