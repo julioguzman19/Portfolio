@@ -58,7 +58,7 @@
     float: top;
     height: auto;
     margin-top: 10px;
-    height: 210px;
+    height: 240px;
     width: 180px;
     filter: brightness(65%);
     margin-left: 213px;
@@ -314,22 +314,32 @@ footer {
   .nameDiv{
     margin-top:14%;
   }
-
-  .nameJobText{
-    font-size: 38px;
-   }
-
    .nav a{
     font-size: 16px;
-    padding:18px;
+    padding:7px;
    }
    
     .nav{
       max-width:388px;
-      height: 100px;
+      height: 40px;
     }
 
-   
+
+    @media only screen and (max-width: 340px) {
+      .nameDiv{
+        margin-top:25%;
+      }
+    
+       .nav a{
+        font-size: 16px;
+        padding:6px;
+        margin-top:3px;
+       }
+       
+        .nav{
+          height: 40px;
+          margin-top:12px;
+        }
 
   
 
