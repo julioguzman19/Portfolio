@@ -309,13 +309,22 @@ footer {
 
 }
 
+/* Extra small devices (phones, 405 and down) */
+@media only screen and (max-width: 405px) {
+   .nav a{
+    padding:10px;
+    margin-top:3px;
+    }
+
+}
+
+
 /* Extra small devices (phones, 388 and down) */
 @media only screen and (max-width: 388px) {
   .nameDiv{
     margin-top:14%;
   }
    .nav a{
-    font-size: 16px;
     padding:7px;
    }
    
@@ -324,21 +333,19 @@ footer {
       height: 40px;
     }
 
-
+  }
     @media only screen and (max-width: 340px) {
       .nameDiv{
         margin-top:25%;
       }
     
        .nav a{
-        font-size: 16px;
-        padding:6px;
+        padding:4px;
         margin-top:3px;
        }
        
         .nav{
           height: 40px;
-          margin-top:12px;
         }
 
   
