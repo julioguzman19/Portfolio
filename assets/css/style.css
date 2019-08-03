@@ -78,20 +78,16 @@
   /***--- Portfolio Page ----***/
   .main-section-portfolio {
     font-family: helvetica; 
-    font-size: 14px;
+    font-size: 20px;
     font-style: bold;
     color:black;
     text-shadow: 1px 1px 1px black; 
-    float: left;
-    width: 100%;
     max-width: 1200px;
     padding: 1% 0px 0px 4%;
   }
   .container-portfolio {
-    width: 100%;
     max-width: 980px;
     margin: 0 auto;
-    clear: both;
   }
   .work {
     position: relative;
@@ -186,10 +182,13 @@ footer {
   background-color: darkgrey;
   color: #ffffff;
   text-align: center;
-  font-size: 10px;
+  font-size: 11px;
   height: 5%;
   margin: 10% 0% 0% 0%;
- 
+}
+
+.footer-text{
+  margin-top: 4px;
 }
 
 /*---Media Queries---*/
@@ -222,6 +221,13 @@ footer {
   .nameDiv{
     margin-top:7%;
   }
+
+}
+
+/*960px and down) */
+@media only screen and (max-width: 960px) {
+  /*** --- Portfolio Page --- ***/
+
 
 }
 
