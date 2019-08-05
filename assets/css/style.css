@@ -35,12 +35,6 @@
     margin: 0 auto;
     clear: both;
   }
-
-  #main-container {
-    min-height: calc(100vh - 70px);
-    margin-top:2%;
-
-  }
   
   .main-section-about {
     font-family: helvetica; 
@@ -83,21 +77,23 @@
     font-style: bold;
     padding: 1% 0px 0px 4%;
     max-width: 1200px;
-    text-shadow: 1px 1px 1px black;    
+    text-shadow: 1px 1px 1px black;   
   }
+
   .container-portfolio {
     margin: 0 auto;
     max-width: 980px;
   }
+
   .work {
     position: relative;
     float: left;
     width: 274px;
-    margin: 20px auto 30px auto;
+    margin: 15px auto 0px auto;
     padding: 8px;
-    overflow: auto;
-  }
   
+  }
+    
   .work img {
     border:2px solid black;
     filter: brightness(50%);
@@ -179,8 +175,14 @@ body{
   background-repeat: no-repeat;
   background-size: cover; /*image not zoomed out or in covers everthing*/
 }
+/*main container*/
+#main-container {
+  min-height: calc(100vh - 70px);
+  margin-top:2%;
+  margin: 0px auto 35px auto;
+  overflow:hidden;
 
-
+}
 /*footer*/
 footer {
   background-color: darkgrey;
