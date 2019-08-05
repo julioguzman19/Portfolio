@@ -71,6 +71,15 @@
     padding-top: 3%;
   }
 
+  .indent-content{
+    padding-top: 1%;
+  }
+
+  .bio-li{
+    list-style-type:circle;
+    padding-left: 3%;
+  }
+
   /***--- Portfolio Page ----***/
   .main-section-portfolio {
     color:black;
