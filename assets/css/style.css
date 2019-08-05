@@ -59,7 +59,9 @@
     height: 240px;
     width: 180px;
     filter: brightness(65%);
-    margin-left: 213px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
   .auth-image:hover{
     filter: brightness(90%);
