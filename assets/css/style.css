@@ -276,6 +276,11 @@ footer {
   .nameDiv{
     margin-top:11%;
   }
+
+/*** --- About Page --- ***/
+  .auth-image {
+    filter: brightness(90%);
+  }
 }
 
 /* Medium devices - Small devices 
@@ -391,8 +396,6 @@ footer {
         .nav{
           height: 40px;
         }
-
-  
 
 }
 
