@@ -38,7 +38,7 @@
   
   .main-section-about {
     font-family: helvetica; 
-    font-size: 14px;
+    font-size: 16px;
     font-style: bold;
     color:black;
     width: 100%;
@@ -69,15 +69,20 @@
 
   .indent{
     padding-top: 3%;
+    font-family: helvetica; 
+    font-size: 16px;
   }
 
   .indent-content{
     padding-top: 1%;
+    font-family: helvetica; 
+    font-size: 16px;
   }
 
   .bio-li{
     list-style-type:circle;
     padding-left: 3%;
+    
   }
 
   /***--- Portfolio Page ----***/
