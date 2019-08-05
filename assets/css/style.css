@@ -77,17 +77,17 @@
 
   /***--- Portfolio Page ----***/
   .main-section-portfolio {
+    color:black;
     font-family: helvetica; 
     font-size: 20px;
     font-style: bold;
-    color:black;
-    text-shadow: 1px 1px 1px black; 
-    max-width: 1200px;
     padding: 1% 0px 0px 4%;
+    max-width: 1200px;
+    text-shadow: 1px 1px 1px black;    
   }
   .container-portfolio {
-    max-width: 980px;
     margin: 0 auto;
+    max-width: 980px;
   }
   .work {
     position: relative;
@@ -95,12 +95,13 @@
     width: 274px;
     margin: 20px 0 5px;
     padding: 8px;
+    overflow: auto;
   }
   
   .work img {
-    width: 100%;
     border:2px solid black;
-    filter: brightness(50%); 
+    filter: brightness(50%);
+    width: 100%;     
   }
   
   .work img:hover{
@@ -173,25 +174,24 @@ a:hover{
 /* body background */
 body{
   background:url("../images/beach2.jpg");
-  background-position: center center;
   background-attachment: fixed;
-  background-size: cover; /*image not zoomed out or in covers everthing*/
+  background-position: center center;
   background-repeat: no-repeat;
+  background-size: cover; /*image not zoomed out or in covers everthing*/
 }
 
 
 /*footer*/
 footer {
+  background-color: darkgrey;
   border-top: 7px solid rgba(141, 135, 135, 0.089);
   bottom:0px;  /*keeps footer at bottom*/
-  position: fixed;
-  width: 100%;
-  background-color: darkgrey;
   color: #ffffff;
-  text-align: center;
   font-size: 11px;
-  height: 5%;
-  margin: 10% 0% 0% 0%;
+  height: 20px;
+  position: fixed;
+  text-align: center; 
+  width: 100%;
 }
 
 .footer-text{
@@ -236,8 +236,8 @@ footer {
   /*** --- Portfolio Page --- ***/
   .container-portfolio {
     max-width: 605px;
-    margin: 0 auto;
   }
+
 
 }
 
