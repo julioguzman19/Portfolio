@@ -152,8 +152,8 @@
 /*** Resume ***/
 .container-resume {
   width: 100%;
-  max-width: 980px;
-  margin: 0 auto;
+  max-width: 50%;
+  margin: auto auto;
 }
 
 /*** All Pages ***/
@@ -226,7 +226,12 @@ footer {
         margin-top:6%;
     }
 
-    /*** --- Portfolio Page --- ***/
+    /*** --- Resume Page --- ***/
+    .container-resume {
+      width: 100%;
+      max-width: 50%;
+      margin: auto auto;
+    }
   
 }
 
@@ -237,6 +242,13 @@ footer {
   .nameDiv{
     margin-top:7.5%;
   }
+
+     /*** --- Resume Page --- ***/
+     .container-resume {
+      width: 100%;
+      max-width: 70%;
+      margin: auto auto;
+    }
 }
 
 
@@ -246,6 +258,13 @@ footer {
   .nameDiv{
     margin-top:7%;
   }
+
+       /*** --- Resume Page --- ***/
+       .container-resume {
+        width: 100%;
+        max-width: 80%;
+        margin: auto auto;
+      }
 
 }
 
@@ -266,6 +285,8 @@ footer {
   .nameDiv{
     margin-top:9%;
   }
+
+          
 
 }
 
