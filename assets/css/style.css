@@ -309,7 +309,7 @@ footer {
     filter: brightness(90%);
   }
 
-
+}
 
 /* Medium devices - Small devices 
 (768px - 600px) using average */
@@ -411,6 +411,7 @@ footer {
     }
 
   }
+
     @media only screen and (max-width: 340px) {
       .nameDiv{
         margin-top:25%;
