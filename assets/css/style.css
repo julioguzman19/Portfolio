@@ -1,3 +1,4 @@
+    
 /*Length up down responsiveness!!*/
 
 /*** --- Home Page --- ***/
@@ -286,7 +287,12 @@ footer {
     margin-top:9%;
   }
 
-          
+    /*** --- Resume Page --- ***/
+    .container-resume {
+      width: 100%;
+      max-width: 100%;
+      margin: auto auto;
+          }       
 
 }
 
@@ -302,7 +308,8 @@ footer {
   .auth-image {
     filter: brightness(90%);
   }
-}
+
+
 
 /* Medium devices - Small devices 
 (768px - 600px) using average */
@@ -419,6 +426,7 @@ footer {
         }
 
 }
+
 
 
 
