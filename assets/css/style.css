@@ -296,12 +296,6 @@ footer {
 
 }
 
-@media only screen and (max-width: 800px) {
-    /*** --- Resume Page --- ***/
-    .div-resume {
-      background:white;
-      }  
-  }
 
 /* Medium devices (landscape tablets, 768px and down) */
 @media only screen and (max-width: 768px) {
