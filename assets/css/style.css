@@ -331,7 +331,10 @@ footer {
 
     /*** --- Resume Page --- ***/
     .container-resume {
- background: white;
+    background: white;
+    width: 100%;
+    max-width: 100%;
+    height:100%;
             }  
 }
 
