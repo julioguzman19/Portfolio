@@ -72,11 +72,15 @@
 
   .indent-content{
     padding-top: 1%;
-    padding-left: 8px;
     font-family: helvetica; 
     font-size: 15px;
   }
 
+  ul{
+    list-style: disc outside none; 
+    margin-left: 0; 
+    padding-left: 1em;
+  }
 
 
   /***--- Portfolio Page ----***/
