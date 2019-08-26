@@ -134,16 +134,23 @@
   
   .appLink{
     float:left;
-    margin-left: 20%;
+    margin-left: 28%;
     pointer-events: all;
     color: #ffffff;
   }
  
   .codeLink{
     float:right;
-    margin-right: 20%;
+    margin-right: 28%;
     pointer-events: all;
     color: #ffffff;
+  }
+
+  button{
+    padding: 5px 5px 0px 5px;
+  }
+  button:hover{
+    cursor: pointer;
   }
 
 /*** Resume ***/
