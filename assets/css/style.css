@@ -32,7 +32,7 @@
 /*** About Page ***/
 .container-about {
     width: 100%;
-    max-width: 600px;
+    max-width: 610px;
     margin: 0 auto;
     clear: both;
   }
@@ -40,7 +40,6 @@
   .main-section-about {
     font-family: helvetica; 
     font-size: 16px;
-    font-style: bold;
     color:black;
     width: 100%;
     max-width: 600px;
@@ -71,19 +70,19 @@
   .indent{
     padding-top: 3%;
     font-family: helvetica; 
-    font-size: 16px;
+    font-size: 20px;
+    font-display: bold;
   }
 
   .indent-content{
     padding-top: 1%;
     font-family: helvetica; 
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .bio-li{
     list-style-type:circle;
-    padding-left: 3%;
-    
+    padding-left: 3%;  
   }
 
   /***--- Portfolio Page ----***/
