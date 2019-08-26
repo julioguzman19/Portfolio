@@ -44,10 +44,6 @@
     width: 100%;
     max-width: 600px;
     padding: 1% 0px 0px 1%;
-    background: rgba(165, 163, 163, 0.808);
-  }
-
-  .main-section-about:hover{
     background: rgba(165, 163, 163, 0.959);
   }
 
@@ -76,14 +72,12 @@
 
   .indent-content{
     padding-top: 1%;
+    padding-left: 8px;
     font-family: helvetica; 
     font-size: 15px;
   }
 
-  .bio-li{
-    list-style-type:circle;
-    padding-left: 3%;  
-  }
+
 
   /***--- Portfolio Page ----***/
   .main-section-portfolio {
