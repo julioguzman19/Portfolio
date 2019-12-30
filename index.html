@@ -2,41 +2,623 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Julio Guzman Portfolio</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-  <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC&display=swap" rel="stylesheet" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Julio's Portfolio</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.min.css" rel="stylesheet">
+  <style type="text/css">
+    /* Necessary for full page carousel*/
+    html,
+    body,
+    header,
+    .view {
+      height: 100%;
+    }
+
+    /* Carousel*/
+    .carousel,
+    .carousel-item,
+    .carousel-item.active {
+      height: 100%;
+    }
+
+    .carousel-inner {
+      height: 100%;
+    }
+
+    @media (min-width: 800px) and (max-width: 850px) {
+      .navbar:not(.top-nav-collapse) {
+        background: #1C2331 !important;
+      }
+    }
+  </style>
 </head>
 
-<body>
-  <header>
-    <nav>
-      <ul class="nav">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="resume.html">Resume</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
-    </nav>
+<body id="top">
 
-    <div class="nameDiv">
-      <h1 class="nameJobText">Julio Guzman</h1>
+  <!-- Navbar -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+    <div class="container">
+
+      <!-- Brand -->
+      <a class="navbar-brand" target="_blank"></a>
+      <strong></strong>
+      </a>
+
+      <!-- Collapse -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Links -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <!-- Left -->
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" data-scroll="top" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-scroll="about-me" href="#">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-scroll="portfolio" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-scroll="contact-me" href="#">Contact</a>
+          </li>
+
+        </ul>
+
+        <!-- Right -->
+        <ul class="navbar-nav nav-flex-icons">
+          <li class="nav-item">
+            <a href="https://www.linkedin.com/in/julioguzman1/" class="nav-link border border-light rounded waves-effect waves-light" target="_blank">
+              <i class="fab fa-linkedin mr-2"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="https://github.com/julioguzman19/"
+              class="nav-link border border-light rounded waves-effect waves-light" target="_blank">
+              <i class="fab fa-github mr-2"></i> GitHub
+            </a>
+          </li>
+        </ul>
+
+      </div>
+
     </div>
-  </header>
+  </nav>
+  <!-- Navbar -->
+  <!-- data-ride="carousel" -->
+  <!--Carousel Wrapper-->
+  <div id="carousel-example-1z" class="carousel slide carousel-fade">
 
-  <div class="jobTitle">
-    <br></br>
-    <h1 class="careerInterests">Senior Analyst</h1>
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+
+      <!--First slide-->
+      <div class="carousel-item active">
+        <div class="view">
+
+          <!--Background Image source-->
+          <img src="./img/pexels-photo-1643773.jpeg" class="img-fluid" alt="">
+
+          <!-- Mask & flexbox options-->
+          <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            <!-- Content -->
+            <div class="text-center white-text mx-5 wow fadeIn">
+              <h1 class="mb-4">
+                <strong>Julio Guzman</strong>
+                <p></p>
+              </h1>
+              <h4>Senior Business Operations Analyst</h4>
+
+              <p class="mb-4 d-none d-md-block">
+                Goldman Sachs | University of California Davis | University of Utah
+              </p>
+            </div>
+            <!-- Content -->
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
   </div>
+  <!--/.Carousel Wrapper-->
 
-  <footer>
-    <div>
-      Copyright @Julio Guzman
-    </div>
-  </footer>
+  <!--Main layout-->
+  <main>
+    <div class="container">
+
+      <!--Section: Main info-->
+      <section class="mt-5 wow fadeIn">
+
+        <!--Grid row-->
+        <div class="row">
+
+          <!--Grid column-->
+          <div class="col-md-6 mb-4">
+            <img src="./img/PortfolioPictureCopy.jpg" class="img-fluid z-depth-1-half" alt="Picture of Julio Guzman">
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-6 mb-4">
+
+            <!-- Main heading -->
+            <h3 class="h3 mb-3" id="about-me">About Me</h3>
+            Julio's experiences include:
+                        <ul>
+                            <li>
+                                Camp counselor for 2 summers (someone had to teach these youngins the way of
+                                life)
+                            </li>
+
+                            <li>
+                                Harvester supervisor in agriculture (where I once came eye to eye with a coyote at
+                                night)
+                            </li>
+
+                            <li>
+                                Fellow at Sacramento Entrepreneurship Academy (those shark tank episodes finally
+                                paid off)
+                            </li>
+
+                            <li>
+                                Financial intern at Morgan Stanley (learned the secret art of the stock market: buy
+                                low sell high)
+                            </li>
+
+                            <li>
+                                Risk management intern at the Federal Deposit Insurance Corporation (finally figured out
+                                what the acronym FDIC at the bank meant)
+                            </li>
+
+                            <li>
+                                Operations intern at Goldman Sachs (10 weeks and 7 projects later received an offer)
+                            </li>
+                        </ul>
+                        Julio's current job and education:
+                        <ul>
+                            <li>
+                                Goldman Sachs Business Operations Senior Analyst
+                            </li>
+                            <li>
+                                University of California Davis Bachelors of Science with a Major in Managerial Economics
+                                and dual minors in
+                                Statistics and Applied Computing Information Systems
+                            </li>
+                            <li>
+                                University of Utah Coding Bootcamp Full Stack Developer
+                            </li>
+                        </ul>
+                    </p>
+
+                    <p>
+                        Julio is now:
+                        <ul>
+                            <li>
+                                Actively looking to for a position where he can utilize his business and technical
+                                background. Julio is passionate about teamwork and process improvement!
+                        </ul>
+                        </li>
+            <!-- Main heading -->
+
+            <hr>
+
+            <!-- CTA -->
+            <!-- still working updating my resume -->
+            <a target="_blank" href="./resume/Julio Guzman Resume Portfolio.pdf" class="btn btn-grey btn-md">View Resume
+              <i class="far fa-image ml-1"></i>
+            </a>
+           <!--  <a target="_blank" href="" class="btn btn-grey btn-md"> Download Resume
+              <i class="fas fa-download ml-1"></i>
+            </a> -->
+
+          </div>
+          <!--Grid column-->
+
+        </div>
+        <!--Grid row-->
+
+      </section>
+      <!--Section: Main info-->
+
+      <hr class="my-5">
+
+
+      <!--Section: Main features & Quick Start-->
+      <section>
+
+        <h3 class="h3 text-center mb-5" id="portfolio">Portfolio</h3>
+
+        <!--Section: Not enough-->
+        <h4 class="text-dark">Technical Skills</h4>
+
+        <hr>
+
+        <!--First row-->
+        <div class="row features-small mb-5 mt-3 wow fadeIn">
+
+          <!--First column-->
+          <div class="col-md-4">
+            <!--First row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-check-circle fa-2x indigo-text"></i>
+              </div>
+              <div class="col-10">
+                <h6 class="feature-title">Bootstrap</h6>
+                <div style="height:15px"></div>
+              </div>
+            </div>
+            <!--/First row-->
+
+            <!--Second row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-check-circle fa-2x indigo-text"></i>
+              </div>
+              <div class="col-10">
+                <h6 class="feature-title">Command LIne</h6>
+                <div style="height:15px"></div>
+              </div>
+            </div>
+            <!--/Second row-->
+
+            <!--Third row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-check-circle fa-2x indigo-text"></i>
+              </div>
+              <div class="col-10">
+                <h6 class="feature-title">CSS</h6>
+                <div style="height:15px"></div>
+              </div>
+            </div>
+            <!--/Third row-->
+
+            <!--Fourth row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-check-circle fa-2x indigo-text"></i>
+              </div>
+              <div class="col-10">
+                <h6 class="feature-title">HTML</h6>
+                <div style="height:15px"></div>
+              </div>
+            </div>
+            <!--/Fourth row-->
+          </div>
+          <!--/First column-->
+
+          <!--Second column-->
+          <div class="col-md-4 mt-2">
+            <!--First row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-check-circle fa-2x indigo-text"></i>
+              </div>
+              <div class="col-10">
+                <h6 class="feature-title">Javascript</h6>
+                <div style="height:15px"></div>
+              </div>
+            </div>
+            <!--/First row-->
+
+            <!--Second row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-check-circle fa-2x indigo-text"></i>
+              </div>
+              <div class="col-10">
+                <h6 class="feature-title">MongoDB</h6>
+                <div style="height:15px"></div>
+              </div>
+            </div>
+            <!--/Second row-->
+
+            <!--Third row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-check-circle fa-2x indigo-text"></i>
+              </div>
+              <div class="col-10">
+                <h6 class="feature-title">MySQL</h6>
+                <div style="height:15px"></div>
+              </div>
+            </div>
+            <!--/Third row-->
+
+            <!--Fourth row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-check-circle fa-2x indigo-text"></i>
+              </div>
+              <div class="col-10">
+                <h6 class="feature-title">Node.js</h6>
+                  <div style="height:15px"></div>
+              </div>
+            </div>
+            <!--/Fourth row-->
+          </div>
+
+          <!--/Third column-->
+          <div class="col-md-4 mt-2">
+            <!--First row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-check-circle fa-2x indigo-text"></i>
+              </div>
+              <div class="col-10">
+                <h6 class="feature-title">React.js</h6>
+                <div style="height:15px"></div>
+              </div>
+            </div>
+            <!--/First row-->
+
+            <!--Second row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-check-circle fa-2x indigo-text"></i>
+              </div>
+              <div class="col-10">
+                <h6 class="feature-title">Rest APIs</h6>
+                <div style="height:15px"></div>
+              </div>
+            </div>
+            <!--/Second row-->
+
+            <!--Third row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-check-circle fa-2x indigo-text"></i>
+              </div>
+              <div class="col-10">
+                <h6 class="feature-title">VBA Excel/Outlook</h6>
+                <div style="height:15px"></div>
+              </div>
+            </div>
+
+
+
+          </div>
+
+        </div>
+        <!--/First row-->
+        <h4 class="text-dark">Projects</h4>
+
+        <hr>
+
+        <div class="card-deck">
+
+          <!-- Card -->
+          <div class="card mb-4">
+
+            <!--Card image-->
+            <div class="view overlay">
+              <img class="card-img-top" src="./img/train.jpg" alt="Card image cap" height="250px">
+              <a href="https://julioguzman19.github.io/trainScheduler/">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+
+            <!--Card content-->
+            <div class="card-body">
+
+              <!--Title-->
+              <h4 class="card-title">Train Scheduler</h4>
+              <!--Text-->
+              <p class="card-text">A user input train scheduler proof of concept utilizing Firebase Database.</p>
+            </div>
+
+          </div>
+          <!-- Card -->
+
+          <!-- Card -->
+          <div class="card mb-4">
+
+            <!--Card image-->
+            <div class="view overlay">
+              <img class="card-img-top" src="./img/crypto.jpg" alt="Card image cap" height="250px">
+              <a href="https://julioguzman19.github.io/CryptoNewsConsolidator/">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+
+            <!--Card content-->
+            <div class="card-body">
+
+              <!--Title-->
+              <h4 class="card-title">CryptoCurrency</h4>
+              <!--Text-->
+              <p class="card-text">A website to provide cryptocurrency data using 2 Rest APIs CoinGecko and NYTimes.</p>
+
+            </div>
+
+          </div>
+          <!-- Card -->
+
+          <!-- Card -->
+          <div class="card mb-4">
+
+            <!--Card image-->
+            <div class="view overlay">
+              <img class="card-img-top" src="./img/word.jpg" alt="Card image cap" height="250px">
+              <a href="https://julioguzman19.github.io/Word-Guess-Game/">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+
+            <!--Card content-->
+            <div class="card-body">
+
+              <!--Title-->
+              <h4 class="card-title">Word Guess</h4>
+              <!--Text-->
+              <p class="card-text">A game where user guesses word by typing letters.</p>
+            </div>
+
+          </div>
+          <!-- Card -->
+
+        </div>
+        <!-- Card deck -->
+        <!-- Card deck -->
+        <div class="card-deck">
+
+          <!-- Card -->
+          <div class="card mb-4">
+
+            <!--Card image-->
+            <div class="view overlay">
+              <img class="card-img-top" src="./img/ReadyMetGo.PNG"
+                alt="Card image cap" height="250px">
+              <a href="https://readymetgo.herokuapp.com/">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+
+            <!--Card content-->
+            <div class="card-body">
+
+              <!--Title-->
+              <h4 class="card-title">ReadyMetGo</h4>
+              <!--Text-->
+              <p class="card-text">A proof of concept app created with MySQL Database and Javascript to connect people.</p>
+    
+            </div>
+
+          </div>
+          <!-- Card -->
+
+          <!-- Card -->
+          <div class="card mb-4">
+
+            <!--Card image-->
+            <div class="view overlay">
+              <img class="card-img-top" src="./img/clickAway.JPG"
+                alt="Card image cap"  height="250px">
+              <a href="https://click-away.herokuapp.com/">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+
+            <!--Card content-->
+            <div class="card-body">
+
+              <!--Title-->
+              <h4 class="card-title">Clicky Game</h4>
+              <!--Text-->
+              <p class="card-text">A React.js app where user clicks image and score is added as new image is clicked.</p>
+              
+              
+
+            </div>
+
+          </div>
+          <!-- Card -->
+
+          <!-- Card -->
+          <div class="card mb-4">
+
+            <!--Card image-->
+            <div class="view overlay">
+              <img class="card-img-top" src="./img/bamazon.jpg"
+                alt="Card image cap" height="250px">
+              <a href="./img/App Demo Customer.mp4">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+
+            <!--Card content-->
+            <div class="card-body">
+
+              <!--Title-->
+              <h4 class="card-title">Bamazon</h4>
+              <!--Text-->
+              <p class="card-text">An Amazon-like storefront via command line using MySQL and Node.js.</p>
+              <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+              <!-- <button type="button" class="btn btn-light-blue btn-md">Code</button> -->
+
+            </div>
+
+          </div>
+          <!-- Card -->
+
+        </div>
+        <!-- Card deck -->
+
+
+      </section>
+      <!--Section: Main features & Quick Start-->
+
+      <hr class="my-5">
+
+      <section>
+
+        <!--Section: Contact v.2-->
+        <section class="mb-4">
+
+          <!--Section heading-->
+          <!-- future dev: going to work on having the contact me send messages directly to my email -->
+
+          <h2 class="my-5 h3 text-center" id="contact-me">Contact Me</h2>
+                 <!--Grid column-->
+           
+                <h6 class="my-5 h6 text-center"><i class="fas fa-phone mt-4 fa-2x"></i>
+                  <p>209.230.2794</p>
+                </h6>
+
+                <h6 class="my-5 h6 text-center"><i class="fas fa-envelope mt-4 fa-2x "></i>
+                  <p>julioguzman19@gmail.com</p>
+                </h6>
+           
+            <!--Grid column-->
+
+
+        </section>
+        <!--Footer-->
+        <hr class="mb-5">
+        <!--/.Footer-->
+
+        <!-- SCRIPTS -->
+        <!-- JQuery -->
+        <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+        <!-- Bootstrap tooltips -->
+        <script type="text/javascript" src="js/popper.min.js"></script>
+        <!-- Bootstrap core JavaScript -->
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <!-- MDB core JavaScript -->
+        <script type="text/javascript" src="js/mdb.min.js"></script>
+        <!-- Initializations -->
+        <script type="text/javascript">
+          // Animations initialization
+          new WOW().init();
+          $('a[data-scroll]').click(function (e) {
+            e.preventDefault();
+            //Set Offset Distance from top to account for fixed nav
+            var target = ('#' + $(this).data('scroll'));
+            var $target = $(target);
+            //Animate the scroll to, include easing lib if you want more fancypants easings
+            $('html, body').stop().animate({
+              'scrollTop': $target.offset().top
+            }, 800, 'swing');
+          }); 
+        </script>
 </body>
 
 </html>
